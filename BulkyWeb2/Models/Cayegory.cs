@@ -10,7 +10,7 @@ namespace BulkyWeb2.Models
         [Key]
         public int Category__Id { get; set; } //Primary key of the table
 
-        [Required(ErrorMessage ="Please enter the name for the category!")]
+        
         public string Name { get; set; }
 
         
